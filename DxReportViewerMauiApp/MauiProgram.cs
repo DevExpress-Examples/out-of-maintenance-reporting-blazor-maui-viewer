@@ -13,7 +13,6 @@ namespace DxReportViewerMauiApp {
                 });
 
             builder.Services.AddMauiBlazorWebView();
-            builder.Services.AddDevExpressBlazor();
             builder.Services.AddDevExpressWebAssemblyBlazorReportViewer();
             builder.Services.AddScoped<IExportProcessor, SharedReportExportProcessor>();
 
